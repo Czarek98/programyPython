@@ -20,7 +20,7 @@ print("ZGADYWANKA")
 # print(f"Dobrze podana liczba to {losowa}")
 
 ##########################################################################
-#Zapętlony program
+#looped program
 
 # losowa = random.randint(1,10)
 # losowa = int(losowa)
