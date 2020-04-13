@@ -53,9 +53,9 @@ while wynik_gracza < rundy and wynik_komputera < rundy:
 
 if wynik_gracza > wynik_komputera:
     print(
-        f"GRATULACJE, WYGRAŁEŚ ZJEBIE Z WYNIKIEM: {wynik_gracza} do {wynik_komputera} :)... ale i tak jesteś przegrywem zyciowym.")
+        f"GRATULACJE, WYGRAŁEŚ Z WYNIKIEM: {wynik_gracza} do {wynik_komputera} :)")
 elif wynik_komputera > wynik_gracza:
     print(
-        f"NO TY DEBILU POJEBANY PRZEGRALES KURWA WSZYSTKIE PIENIADZE NA CIEBIE POSTAWIŁEM, JAKIŚ KOMPUTER CIE ROZJEBAŁ {wynik_komputera} do {wynik_gracza}")
+        f"PRZEGRALES {wynik_komputera} do {wynik_gracza}")
 else:
-    print("REMIS ZJEBÓW JEBANYCH DEBILI")
+    print("REMIS")
